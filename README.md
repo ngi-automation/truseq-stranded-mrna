@@ -1,4 +1,4 @@
-# Automated ThruPLEX Library Preparation Installation Guide #
+# Automated TruSeq Stranded mRNA Library Preparation Installation Guide #
 **For Agilent NGS Workstation Option B**
 
 ## Contents ##
@@ -9,7 +9,7 @@
 5. [License](#license)
 
 ## Description ##
-This document describes how to set up NGI Stockholms ThruPLEX method for the Agilent NGS Workstation. This protocol is used to prepare up to 96 samples with Rubicon Genomics' ThruPLEX-FD kit.
+This document describes how to set up NGI Stockholms TruSeq Stranded mRNA method for the Agilent NGS Workstation. This protocol is used to prepare up to 96 samples with Illumina’s TruSeq Stranded mRNA kit.
 
 ## Requirements ##
 - Agilent NGS Workstation :warning: <i><b>Option B only</i></b>
@@ -20,20 +20,18 @@ This document describes how to set up NGI Stockholms ThruPLEX method for the Agi
 - Labware definitions*
 - Liquid classes definition*
 
-\* provided in `thruplex_labware_liquids.vzp`
+\* provided in `all_labware_liquids.vzp`
 
 #### Included files ####
 ```
-illumina_spri.pro
-resources
-thruplex.VWForm
-thruplex.js
-thruplex.pro
-thruplex.rst
-thruplex_finish.pro
-thruplex_pcr.pro
-thruplex_transfer.pro
-thruplex_transfer2.pro
+rna_prep_v1203.pro
+truseq_runset_shorter.rst
+truseq_ssrna_adenylation_v1.2.pro
+truseq_ssrna_ligation_v1.0.pro
+truseq_startup_v10.pro
+truseq_startup_v1201.js
+truseq_stranded_ligation.VWForm
+all_labware_liquids.vzp
 resources/1313497192_media_controls_light_pause.png
 resources/1313497517_media_controls_light_play.png
 resources/clear_inventory.bat
@@ -45,20 +43,20 @@ resources/clear_inventory.sql
 
 
 ##### Using Git #####
-Clone into `https://github.com/ngi-automation/thruplex.git` from the `Protocol Files` directory:
+Clone into `https://github.com/ngi-automation/truseq-stranded-mrna.git` from the `Protocol Files` directory:
 
 ```bash
 cd "C:\VWorks Workspace\Protocol Files"
-git clone https://github.com/ngi-automation/thruplex.git
+git clone https://github.com/ngi-automation/truseq-stranded-mrna.git
 ```
 
 Alternatively, download the compressed folder from:
-[`https://github.com/ngi-automation/thruplex/archive/master.zip`][zip]
+[`https://github.com/ngi-automation/truseq-stranded-mrna/archive/master.zip`][zip]
 and extract to `C:\VWorks Workspace\Protocol Files`
 
 ### Configure ###
 #### Labware and and liquid class definitions ####
-Use the import feature in VWorks from `File › Import`in the toolbar and select the `thruplex-labware-liquids.vzp` file included. See the [VWorks Knowledge Base][import] for more information.
+Use the import feature in VWorks from `File › Import`in the toolbar and select the `all-labware-liquids.vzp` file included. See the [VWorks Knowledge Base][import] for more information.
 
 #### Device files ####
 Device files and profiles are system specific and will not be provided. The "standard" Bravo configuration is used in the ThruPLEX protocols:
@@ -78,6 +76,8 @@ See the [VWorks Knowledge Base][device-file] for more information on how to sele
 
 ## Protocol ##
 
+:warning: **Link not available yet**
+
 [Link to PDF with instructions][sop].
 
 ## License ##
@@ -96,7 +96,7 @@ The full license can also be found in the file LICENSE and must included when re
 
 *VWorks Automation Control*, *Bravo* and other things relating to the *Agilent NGS Workstation* are trademarks owned by Agilent Technologies, Inc. (Santa Clara, CA 95052-8058, US).
 
-*ThruPLEX* and *ThruPLEX-FD* are trademarks owned by Rubicon Genomics (Ann Arbor, MI 48108, US).
+*TruSeq* and *TruSeq Stranded mRNA* are trademarks owned by Illumina, Inc. (San Diego, CA 92122 US).
 
 [email]: mailto:joel.gruselius@scilifelab.se "E-mail author"
 [ngi]: https://portal.scilifelab.se/genomics/ "NGI Stockholm"
@@ -104,7 +104,7 @@ The full license can also be found in the file LICENSE and must included when re
 [zip]: https://github.com/jgruselius/nextera-rapid-capture/archive/master.zip
 [import]: http://www.velocity11.com/techdocs/AutomationSolutionsKB/vworks4_ug/11_Troubleshooting.15.03.html#2005458
 [catalog]: http://www.chem.agilent.com/Library/catalogs/Public/5991-0369EN.pdf
-[sop]: http://goo.gl/IixcVn
+[sop]: about:blank
 [device-file]: http://www.velocity11.com/techdocs/AutomationSolutionsKB/vworks4_ug/02_CreateProtocolBasic.04.08.html#1981042
 
 ---
