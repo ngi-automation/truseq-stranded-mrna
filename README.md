@@ -94,6 +94,10 @@ See the [VWorks Knowledge Base][device-file] for more information on how to sele
 
 The full license can also be found in the file LICENSE and must included when redistributing the software.
 
+If this method is used to generate results for publication we ask that you include a reference to this repository, something like:
+```
+Automation protocols made available by NGI Sweden at https://github.com/ngi-automation/truseq-stranded-mrna
+```
 *VWorks Automation Control*, *Bravo* and other things relating to the *Agilent NGS Workstation* are trademarks owned by Agilent Technologies, Inc. (Santa Clara, CA 95052-8058, US).
 
 *TruSeq* and *TruSeq Stranded mRNA* are trademarks owned by Illumina, Inc. (San Diego, CA 92122 US).
