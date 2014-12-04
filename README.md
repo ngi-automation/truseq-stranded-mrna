@@ -25,10 +25,10 @@ This document describes how to set up NGI Stockholms TruSeq Stranded mRNA method
 #### Included files ####
 ```
 rna_prep_v1203.pro
-truseq_runset_shorter.rst
-truseq_ssrna_adenylation_v1.2.pro
-truseq_ssrna_ligation_v1.0.pro
-truseq_startup_v10.pro
+truseq_stranded_runset.rst
+truseq_stranded_adenylation.pro
+truseq_stranded_ligation.pro
+truseq_startup.pro
 truseq_startup_v1201.js
 truseq_stranded_ligation.VWForm
 all_labware_liquids.vzp
