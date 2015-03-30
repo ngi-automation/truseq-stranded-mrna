@@ -76,7 +76,7 @@ See the [VWorks Knowledge Base][device-file] for more information on how to sele
 
 ## Protocol ##
 
-:warning: **Link not available yet**
+:warning: **Work in progress**
 
 [Link to PDF with instructions][sop].
 
@@ -108,7 +108,7 @@ Automation protocols made available by NGI Sweden at https://github.com/ngi-auto
 [zip]: https://github.com/ngi-automation/truseq-stranded-mrna/archive/master.zip
 [import]: http://www.velocity11.com/techdocs/AutomationSolutionsKB/vworks4_ug/11_Troubleshooting.15.03.html#2005458
 [catalog]: http://www.chem.agilent.com/Library/catalogs/Public/5991-0369EN.pdf
-[sop]: about:blank
+[sop]: http://goo.gl/bzzkpj
 [device-file]: http://www.velocity11.com/techdocs/AutomationSolutionsKB/vworks4_ug/02_CreateProtocolBasic.04.08.html#1981042
 
 ---
