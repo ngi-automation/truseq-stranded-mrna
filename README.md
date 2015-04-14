@@ -16,7 +16,7 @@ This document describes how to set up NGI Stockholms TruSeq Stranded mRNA method
 - Consumables
    - Eppendorf twin.tec 96 PCR plate (Eppendorf, cat# 0030 128.672 (int); 951020460 (US))
    - Nunc deepwell 1.3 mL plate (Thermo Scientific, cat# 260251)
-   - ABgene 2.2 mL storage plate Mk.II (Thermo Scientific, cat# # AB-0933)
+   - ABgene 2.2 mL storage plate Mk.II (Thermo Scientific, cat# AB-0933)
 - Labware definitions*
 - Liquid classes definition*
 
@@ -64,11 +64,11 @@ Device files and profiles are system specific and will not be provided. The "sta
 ##### Standard configuration #####
 Position | Type | Part#
 -------: | ---- | -----
-1&ndash;3, 8  | Deck Platepad | G5498b#004
-4, 6     | Peltier Thermal Station (Inheco) | G5498b#021
-5        | Orbital Shaking Station | G5498b#033
-7        | Magnetic Bead Accessory | G5498b#008
-9        | Thermal Station (ThermoCube) | G5498b#036/7/8
+1&ndash;3, 8  | Deck Platepad | `G5498b#004`
+4, 6     | Peltier Thermal Station (Inheco) | `G5498b#021`
+5        | Orbital Shaking Station | `G5498b#033`
+7        | Magnetic Bead Accessory | `G5498b#008`
+9        | Thermal Station (ThermoCube) | `G5498b#036`/`7`/`8`
 
 :warning:  Each `.pro` file **must have the correct device file set**.
 
